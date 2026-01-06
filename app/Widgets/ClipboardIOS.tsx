@@ -8,7 +8,7 @@ export default function Main() {
         Available for free on the App Store. Download for Mac or iOS, sync with
         iCloud and you’re ready to start adding to your clipboard.
       </p>
-      <nav className="flex flex-col gap-4 lg:flex-row">
+      <div className="flex flex-col gap-4 lg:flex-row">
         <a
           href="#"
           className="px-8 py-3 rounded-full bg-this-green-500 text-white shadow-lg transition-opacity hover:opacity-90"
@@ -21,7 +21,7 @@ export default function Main() {
         >
           Download for Mac
         </a>
-      </nav>
+      </div>
     </section>
   );
 }

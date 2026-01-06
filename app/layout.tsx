@@ -21,7 +21,9 @@ export default function RootLayout({
       <body
         className={`${jamjuree.className} antialiased`}
       >
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
