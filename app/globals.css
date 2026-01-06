@@ -10,17 +10,33 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-this-green-500: var(--green-500);
+  --color-this-blue-100: var(--blue-100);
+  --color-this-gray-700: var(--gray-700);
+  --color-this-gray-500: var(--gray-500);
+  --text-this-h1: var(--h1);
+  --text-this-h2: var(--h2);
+  --text-this-h3: var(--h3);
+  --text-this-h4: var(--h4);
+  --text-this-h5: var(--h5);
+  --text-this-h6: var(--h6);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --green-500: hsl(171, 66%, 44%);
+    --blue-100: hsl(233, 100%, 69%);
+    --gray-700: hsl(210, 10%, 33%);
+    --gray-500: hsl(201, 11%, 66%);
+    --h1: clamp(2.2rem, 4vw, 3.5rem);
+    --h2: clamp(1.75rem, 3.2vw, 2.8rem);
+    --h3: clamp(1.4rem, 2.6vw, 2.25rem);
+    --h4: clamp(1.15rem, 2vw, 1.8rem);
+    --h5: clamp(1rem, 1.6vw, 1.45rem);
+    --h6: clamp(0.9rem, 1.3vw, 1.15rem);
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
